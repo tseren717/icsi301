@@ -128,11 +128,15 @@ section .main .main_image img {
 /* fit */
 .brands {
   text-align: center;
-  padding: 4rem 0;
+  padding: 2rem 0;
   background: #000;
   color: #fff;
 }
-
+.brands h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+}
 .carousel {
   position: relative;
   width: 300px;
@@ -145,15 +149,15 @@ section .main .main_image img {
 .carousel img {
   position: absolute;
   width: 200px;
-  height: 200px;
+  height: 120px;
   object-fit: contain;
-  left: 70px; /* center offset */
-  top: 70px;
+  left: 90px; /* center offset */
+  top: 90px;
   transition: transform 0.5s;
 }
 
 .carousel img:hover {
-  transform: scale(1.2);
+  transform: scale(1.3);
   z-index: 1000;
 }
 

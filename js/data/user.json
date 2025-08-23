@@ -1,0 +1,14 @@
+{
+        "username": "Jennie",
+        "password": "admin",
+        "img": "assets/images/profile.jpg",
+        "phone-number": "99123456",
+        "email": "example@gmail.com",
+        "social-links": {
+            "facebook": "https://www.facebook.com/б.билгүүн",
+            "instagram": "https://www.instagram.com/bilguuneeshuu"
+        },
+        "name": "Б.Билгүүн",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+         "favorites": [1,2,3]
+}
